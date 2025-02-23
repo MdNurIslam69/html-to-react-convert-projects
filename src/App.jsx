@@ -1,4 +1,10 @@
 import "./App.css";
+import Model_S from "/public/assets/Model-S.jpeg";
+import Model_3 from "/public/assets/Model-3.jpeg";
+import Model_X from "/public/assets/Model-X.jpeg";
+import Model_Y from "/public/assets/Model-Y.jpeg";
+import Model_Solar_Roof from "/public/assets/Solar Roof.jpeg";
+import Model_Solar_Panel from "/public/assets/Solar Panel.jpeg";
 
 function App() {
   return (
@@ -80,11 +86,7 @@ function App() {
         {/* <!-- 1-Model S --> */}
 
         <section id="modelS" className="car-section">
-          <img
-            className="car-img"
-            src="/public/assets/Model-S.jpeg"
-            alt="model S"
-          />
+          <img className="car-img" src={Model_S} alt="model S" />
 
           <div className="car-details">
             <h2 className="car-name">Model S</h2>
@@ -126,11 +128,7 @@ function App() {
         {/* <!-- 2-Model 3 --> */}
 
         <section id="model3" className="car-section">
-          <img
-            className="car-img"
-            src="/public/assets/Model-3.jpeg"
-            alt="model 3"
-          />
+          <img className="car-img" src={Model_3} alt="model 3" />
 
           <div className="car-details">
             <h2 className="car-name">Model 3</h2>
@@ -172,11 +170,7 @@ function App() {
         {/* <!-- 3-Model X --> */}
 
         <section id="modelX" className="car-section">
-          <img
-            className="car-img"
-            src="/public/assets/Model-X.jpeg"
-            alt="model X"
-          />
+          <img className="car-img" src={Model_X} alt="model X" />
 
           <div className="car-details">
             <h2 className="car-name">Model X</h2>
@@ -218,11 +212,7 @@ function App() {
         {/* <!-- 4-Model Y --> */}
 
         <section id="modelY" className="car-section">
-          <img
-            className="car-img"
-            src="/public/assets/Model-Y.jpeg"
-            alt="model Y"
-          />
+          <img className="car-img" src={Model_Y} alt="model Y" />
 
           <div className="car-details">
             <h2 className="car-name">Model Y</h2>
@@ -264,11 +254,7 @@ function App() {
         {/* <!-- 5-Model Solar Roof --> */}
 
         <section id="solarRoof" className="car-section">
-          <img
-            className="car-img"
-            src="/public/assets/Solar Roof.jpeg"
-            alt="Solar Roof"
-          />
+          <img className="car-img" src={Model_Solar_Roof} alt="Solar Roof" />
 
           <div className="car-details">
             <h2 className="car-name">Solar Roof</h2>
@@ -310,11 +296,7 @@ function App() {
         {/* <!-- 6-Model Solar Panel --> */}
 
         <section id="solarPanel" className="car-section">
-          <img
-            className="car-img"
-            src="/public/assets/Solar Panel.jpeg"
-            alt="Solar Panel"
-          />
+          <img className="car-img" src={Model_Solar_Panel} alt="Solar Panel" />
 
           <div className="car-details">
             <h2 className="car-name">Solar Panel</h2>
