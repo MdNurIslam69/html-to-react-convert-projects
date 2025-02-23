@@ -82,7 +82,7 @@ function App() {
         <section id="modelS" className="car-section">
           <img
             className="car-img"
-            src="./src/assets/Model-S.jpeg"
+            src="/public/assets/Model-S.jpeg"
             alt="model S"
           />
 
@@ -128,7 +128,7 @@ function App() {
         <section id="model3" className="car-section">
           <img
             className="car-img"
-            src="./src/assets/Model-3.jpeg"
+            src="/public/assets/Model-3.jpeg"
             alt="model 3"
           />
 
@@ -174,7 +174,7 @@ function App() {
         <section id="modelX" className="car-section">
           <img
             className="car-img"
-            src="./src/assets/Model-X.jpeg"
+            src="/public/assets/Model-X.jpeg"
             alt="model X"
           />
 
@@ -220,7 +220,7 @@ function App() {
         <section id="modelY" className="car-section">
           <img
             className="car-img"
-            src="./src/assets/Model-Y.jpeg"
+            src="/public/assets/Model-Y.jpeg"
             alt="model Y"
           />
 
@@ -266,7 +266,7 @@ function App() {
         <section id="solarRoof" className="car-section">
           <img
             className="car-img"
-            src="./src/assets/Solar Roof.jpeg"
+            src="/public/assets/Solar Roof.jpeg"
             alt="Solar Roof"
           />
 
@@ -312,7 +312,7 @@ function App() {
         <section id="solarPanel" className="car-section">
           <img
             className="car-img"
-            src="./src/assets/Solar Panel.jpeg"
+            src="/public/assets/Solar Panel.jpeg"
             alt="Solar Panel"
           />
 
